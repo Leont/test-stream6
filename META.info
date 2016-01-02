@@ -1,0 +1,16 @@
+{
+    "name" : "Test::Stream",
+    "version" : "0.0.1",
+    "description" : "TAP harness for perl6",
+    "provides" : {
+		"Test::More"                         : "lib/Test/Hub.pm",
+		"Test::Stream"                       : "lib/Test/Hub.pm",
+		"Test::Hub"                          : "lib/Test/Hub.pm",
+		"Test::Event"                        : "lib/Test/Hub.pm",
+		"Test::Event::Test"                  : "lib/Test/Hub.pm"
+    },
+    "author" : "Leon Timmermans",
+    "depends" : [ ],
+    "source-url" : "git://github.com/leont/test-stream.git"
+}
+
